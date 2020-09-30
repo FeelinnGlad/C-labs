@@ -10,11 +10,11 @@ void main() {
     int b;
     unsigned int c;
     
-    printf("Введите значение a: ");
+    printf("Enter value of variable a: ");
     scanf("%d", &a);
-    printf("Введите значение b: ");
+    printf("Enter value of variable b: ");
     scanf("%d", &b);
-    printf("Введите значение c: ");
+    printf("Enter value of variable c: ");
     scanf("%u", &c);
     a-=((b++>>2!=c)+1)|++c;
     printf("%d, %d, %u", a, b, c);
