@@ -7,9 +7,9 @@ Find a sum of even numbers from m to n.*/
 
 void main() {
     int m, n, sum = 0;
-    printf("Введите нижний предел: ");
+    printf("Enter lower number: ");
     scanf("%d", &m);
-    printf("Введите верхний предел: ");
+    printf("Enter upper number: ");
     scanf("%d", &n);
     while (m<=n) {
         if(!(m%2)){
@@ -18,7 +18,7 @@ void main() {
         m++;
     }
     
-    printf("Сумма четных: %d", sum);
+    printf("Sum of even numbers: %d", sum);
 
 }
 
@@ -28,15 +28,15 @@ void main() {
 
 void main() {
     int m, n, sum = 0;
-    printf("Введите нижний предел: ");
+    printf("Enter lower number: ");
     scanf("%d", &m);
-    printf("Введите верхний предел: ");
+    printf("Enter upper number: ");
     scanf("%d", &n);
     for (int i = m; i<= n; i++){
         if(!(i%2)){
             sum+=i;
         }
     }
-    printf("Сумма четных: %d", sum);
+    printf("Sum of even numbers: %d", sum);
 
 }
