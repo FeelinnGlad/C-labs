@@ -2,6 +2,15 @@
 Using the combined data type (Struct) implement the program for working with the data according to the task variant. 
 Enter auto price information in the record array and display it as a table.
 Enter string values in a way that allows you to enter text that contains spaces.*/
+┌───┬─────────────────────┬─────────────┐
+│ № │        Model        │ Price mln ¥ │
+├───┼─────────────────────┼─────────────┤
+│ 1 │ Toyota Trueno AE86  │      2.2000 │
+├───┼─────────────────────┼─────────────┤
+│ 2 │ Mazda RX7 FD        │      3.8000 │
+├───┼─────────────────────┼─────────────┤
+│ 3 │ Mazda RX7 FС        │      3.6000 │
+└───┴─────────────────────┴─────────────┘
 
 #include <stdio.h>
 #include <string.h>
