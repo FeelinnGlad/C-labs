@@ -3,7 +3,7 @@ Using the combined data type (Struct) implement the program for working with the
 Enter auto price information in the record array and display it as a table.
 Enter string values in a way that allows you to enter text that contains spaces.
 
-An example of how program output:
+An example of program output:
 ┌───┬─────────────────────┬─────────────┐
 │ № │        Model        │ Price mln ¥ │
 ├───┼─────────────────────┼─────────────┤
